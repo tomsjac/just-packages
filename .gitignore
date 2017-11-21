@@ -1,0 +1,12 @@
+# User specific & automatically generated files #
+#################################################
+composer.lock
+npm-debug.log
+package-lock.json
+/node_modules
+/test/node_modules
+
+# OS generated files #
+######################
+.DS_Store
+Thumbs.db
