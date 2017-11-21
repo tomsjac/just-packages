@@ -99,11 +99,11 @@ for(let namePackage in packages){
             console.log('Copy files into '+folderDest);
             fs.copySync(folderSource, folderDest);
         }
-        //Deleting the package from the list
-        listPackageAtDel.splice(listPackageAtDel.indexOf(namePackage), 1);
     }else{
         console.error('! Package sources: '+namePackage+' not found');
     }
+    //Deleting the package from the list
+    listPackageAtDel.splice(listPackageAtDel.indexOf(namePackage), 1);
 }
 
 /**
@@ -119,6 +119,6 @@ if(hasDeleteFolderNode == true){
  */
 for(let iD in listPackageAtDel){
     console.log();
-    console.log('##### Supresssion du Package : '+listPackageAtDel[iD]+' #####');
+    console.log('##### Delete package : '+listPackageAtDel[iD]+' #####');
     shell.rm('-rf', folderOut+'/'+listPackageAtDel[iD]);
 }
