@@ -1,0 +1,19 @@
+{
+  "name": "just-packages",
+  "author": "Thomas Jacquey <contact@tomsjac.info>",
+  "license": "MIT",
+  "version": "1.0.0",
+  "description": "Just get the libraries you need",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tomsjac/just-packages"
+  },
+  "scripts": {
+    "justPackages": "node bin/justPackages.js"
+  },
+  "devDependencies": {
+    "yargs-parser": "^8.0.0",
+    "fs-extra": "^4.0.2",
+    "shelljs": "^0.7.8"
+  }
+}

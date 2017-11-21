@@ -1,0 +1,23 @@
+{
+    "name": "pachages-example",
+    "folderNode": "test/",
+    "folderOut": "test/packages",
+    "packages": {
+        "bootstrap-sass" : {
+            "version": "^3.3.7",
+            "getFiles": ["assets/stylesheets/","assets/javascripts/bootstrap.js","assets/fonts/"]
+        },
+        "font-awesome" : {
+            "version": "^4.7.0",
+            "getFiles": ["scss/","fonts/"]
+        },
+        "jquery" : {
+            "version": "^3.2.1",
+            "getFiles": ["dist/jquery.js"]
+        },
+        "bootstrap-colorpicker" : {
+            "version": "^2.5.2",
+            "getFiles": [ "dist/"]
+        }
+    }
+}
