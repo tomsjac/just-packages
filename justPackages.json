@@ -1,5 +1,5 @@
 {
-    "name": "pachages-example",
+    "name": "packages-example",
     "folderNode": "test/",
     "folderOut": "test/packages",
     "packages": {
